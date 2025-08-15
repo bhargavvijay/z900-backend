@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173") // allow frontend dev origin
+@CrossOrigin(origins = "https://z900-frontend.onrender.com") // allow frontend dev origin
 @RequestMapping("/accessories")
 public class Contoller {
 
